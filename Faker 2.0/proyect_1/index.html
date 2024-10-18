@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="line"></div>
+            <div class="imgbox">
+                <img src="33efeab3db1b221866f723fbf1a98c1a.png" alt="">
+            </div>
+            <div class="contenido">
+                <div class="detalles">
+                    <h2>Jordhan Vasquez<br><span>Junior UX/UI Diseñador</span></h2>
+                    <div class="data">
+                        
+                    </div>
+                    <div class="btnaction">
+                        <input type="text" id="wordInput" placeholder="Escribe una palabra">
+
+                        <button id="startRecognition">Hablar</button>
+                        
+                        <button id="generateButton">combersar</button>
+
+                        
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+            
+
+        </div>
+        <div>
+            <div class="boton-container">
+                <input type="submit" name="contratar" value="comencemos" class="boton" onclick="redirigirPagina()">
+                <input type="submit" name="contratar" value="señas" class="boton" onclick="Traducir()">
+            </div>
+        
+        </div>
+        
+        
+    <div id="imageContainer"></div>
+        
+    </div>
+
+    <style>
+        /* Estilos del contenedor de los botones */
+        .boton-container {
+            display: inline-block;
+            gap: 200px; /* Espacio entre los botones */
+        }
+
+        /* Estilo común para ambos botones */
+        .boton {
+            background-color: #4CAF50; /* Color de fondo */
+            color: white; /* Color del texto */
+            padding: 0; /* Sin relleno interno */
+            font-size: 16px; /* Tamaño de la fuente */
+            border: none; /* Sin bordes */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambio de cursor al pasar el ratón */
+            width: 100px; /* Ancho fijo */
+            height: 40px; /* Alto fijo */
+            transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+        }
+
+        /* Efecto hover */
+        .boton:hover {
+            background-color: #45a049;
+        }
+
+        /* Efecto cuando se presiona el botón */
+        .boton:active {
+            background-color: #3e8e41;
+        }
+    </style>
+
+    <script src="main.js"></script>
+    <script src="main2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script>
+        function redirigirPagina() {
+            window.location.href = '/pagina_web/index.html';  // Reemplaza con la URL o nombre de la página a la que deseas redirigir.
+        }
+        </script>
+
+<script>
+    function Traducir() {
+        window.location.href = '/proyect_1/gestos.html';  // Reemplaza con la URL o nombre de la página a la que deseas redirigir.
+    }
+    </script>
+</body>
+</html>

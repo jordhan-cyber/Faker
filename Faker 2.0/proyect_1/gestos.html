@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconocimiento de Gestos de Frases</title>
+    <link rel="stylesheet" href="styles3.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+    
+        <div class="content-section">
+            <div class="text-section">
+                <h2>Frases Detectadas</h2>
+                <textarea id="gestureText" readonly></textarea>
+            </div>
+    
+            <div class="video-section">
+                <video id="webcam" autoplay></video>
+                <canvas id="output"></canvas>
+            </div>
+        </div>
+    
+        <div id="imageContainer"></div>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+    <script src="main3.js"></script>
+    <!-- <script src="scripts.js"></script> -->
+</body>
+</html>

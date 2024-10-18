@@ -1,0 +1,427 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:'Roboto', sans-serif;
+}
+
+.bloques
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.header
+{
+    background-image: url(img/img/header.fw.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centrar
+{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.logo
+{
+    color: #c1c1c1;
+    margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+.menu_principal
+{
+    width: 57%;
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+.menu_principal li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.menu_principal ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/**---izquierda--derecha---**/
+
+.izquierda, .derecha
+{
+    width: 48%;
+    height: auto;
+    overflow: hidden;
+    /* border: 1px solid #fff; */
+    display: inline-block;
+}
+
+.izquierda{
+    float: left;
+    text-align: left;
+}
+
+.subtitulo
+{
+    color: #c1c1c1;
+}
+
+.izquierda, .subtitulo
+{
+    text-align: left;
+}
+
+.descripsiom
+{
+    color: #c1c1c1;
+    font-weight: 300;
+    text-align: left;
+}
+
+.boton
+{
+    padding: 17px 35px;
+    background-color: coral;
+    color: #fff;
+    border-radius: 7px;
+    border: 0;
+}
+
+.titulo-principal
+{
+    color: #fff;
+    font-size: 60px;
+    
+}
+
+.derecha{
+    float: right;
+}
+
+.img_pres
+{
+    width: 80%;
+}
+/*----por que elegirnos---*/
+
+.elegir
+{
+    padding: 50px 0px;
+}
+
+.img_elige
+{
+    width: 90%;
+}
+
+.elegir .derecha
+{
+    text-align: left;
+}
+
+.elegir .derecha .texto_naranja
+{
+    color: #ee780a;
+}
+
+.elegir .derecha h1
+{
+    color: #424141;
+    font-size: 35px;
+}
+
+.elegir .derecha p
+{
+    color: #7d7a7a;
+    font-weight: 300;
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.opcion
+{
+    width: 45%;
+    border: 1px solid #424141;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid #df3a01;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    
+}
+
+.opcion:hover
+{
+    color: #df3a01;
+    cursor: pointer;
+}
+.opcion .img_opciones
+{
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+}
+
+.text_opciones
+{
+    margin-top: 15px;
+}
+
+/*---notificasiones---*/
+.notificasion
+{
+    height: auto;
+    overflow: hidden;
+    background-image: url(img/img/dos.fw.png);
+    padding: 50px 0;
+    color: #fff;
+}
+
+.notificasion h4
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form_notificasiones
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.entrada-not
+{
+    width: 40%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.boton-not
+{
+    padding: 17px 35px;
+    background-color: #df3a01;
+    color: #fff;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.boton-not:hover
+{
+    background-color: #ee780a;
+}
+
+.servicios
+{
+    padding: 50px 0px;
+}
+
+.servicios, .centrar
+{
+    color: #424141;
+    font-size: 15px;
+}
+
+.texto_naranja
+{
+    color: #df3a01;
+}
+
+.contenedores
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -15px;
+}
+
+.contenedores .contenido
+{
+    width: 45%;
+    height: 150px;
+    position: relative;
+    padding: 20px;
+    /* border: 1px solid #df3a01; */
+    text-align: left;
+    box-shadow: 0px 0px 10px #cccbcb;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.img-servicio
+{
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+}
+
+.parrafo
+{
+    color: #7d7a7a;
+    line-height: 25px;
+}
+
+.planes
+{
+    background: #c1c1c1;
+}
+
+.plan
+{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.img_plan
+{
+    width: 80%;
+}
+
+.titulo_plan
+{
+    width: 35%;
+    padding: 15px;
+    background: #df3a01;
+    color: #fff;
+    float: left;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 35px;
+    -webkit-border-radius: 0px 25px 25px 0px;
+    -moz-border-radius: 0px 25px 25px 0px;
+    -ms-border-radius: 0px 25px 25px 0px;
+    -o-border-radius: 0px 25px 25px 0px;
+}
+
+.contenedor_planes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.plan ul
+{
+    margin-top: 20px;
+}
+
+.plan ul li
+{
+    height: 50px;
+}
+
+.boton_planes
+{
+    padding: 17px 35px;
+    background-color: #df3a01;
+    color: #fff;
+    border: 0px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.footer
+{
+    height: 360px;
+    width: 100%;
+    padding: 4px 0px;
+    background-image: url(img/img/footer.fw.png);
+}
+
+.footer, .centrar, .izquierda
+{
+    color: #7d7a7a;
+}
+
+.footer, .centrar, .izquierda h4, p
+{
+    text-align: center;
+}
+
+.footer, .centrar, .derecha
+{
+    text-align: center;
+}
+
+
+
+.entrada_form
+{
+    width: 60%;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+
+}
+
+.boton_contact
+{
+    padding: 7px 12px;
+}
+
+.pie
+{
+    color: #7d7a7a;
+    border-top: 1px solid #cccbcb;
+    padding-top: 15px;
+    text-align: center;
+}
